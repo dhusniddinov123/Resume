@@ -1,0 +1,147 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 3.5vw;
+}
+
+h2 {
+    font-size: 2vw;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.7vw;
+}
+
+p {
+    margin: 0px;
+    font-size: 1.4vw;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.info>div {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.info>div>i {
+    margin-right: 10px;
+    font-size: 2vw;
+}
+
+.aboutme {
+    display: flex;
+    margin-top: 40px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}
+
+.skills>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.languages>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contactinfo>a {
+    font-size: 3.5vw;
+    margin: 20px;
+    color: black;
+}
+
+.hobbies {
+    display: flex;
+    margin-top: 10px;
+}
+
+.hobby-link {
+    font-size: 1.7vw;
+    color: #0077cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hobby-link:hover {
+    color: #0055aa;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 3vw;
+    border-radius: 8px;
+    width: 25vw;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.modal-content > h2{
+    font-size: 2vw;
+}
+.modal-content >div{
+    font-size: 1vw;
+}
+
+.close {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close:hover {
+    color: black;
+}
+.measurablemetrics{
+    margin-top: 40px;
+}
+.measurablemetrics >ol{
+    font-size: 1.4vw;
+}
+.projects{
+    margin-top: 40px;
+}
+.projects > ul{
+    font-size: 2vw;
+}
